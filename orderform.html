@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CaffeiMate Me Order Now</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<form action="mailto:lisajia.chen@mail.utoronto.ca" method="post" enctype="text/plain">
+    <div class="form-group">
+        <label for="name">Your name</label>
+        <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Please enter your name">
+    </div>
+    <div class="form-group">
+        <label for="name">Your phone number</label>
+        <input type="email" class="form-control" id="phonenumber" aria-describedby="emailHelp" placeholder="Please enter your contact number">
+    </div>
+        <div class="dropdown">
+            <button class="btn btn-attention dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Starbucks or Tim Hortons?
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li>Starbucks</li>
+                <li>Tim Hortons</li>
+                </ul>
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox" value="">Coffee</label>
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox" value="">Tea</label>
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox" value="">Espresso</label>
+    </div>
+    <div class="form-group">
+        <label for="exampleTextarea">Special instructions (ie. Quantity of item if more than 1, how you take your coffee/tea)</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script></body>
+</html>
