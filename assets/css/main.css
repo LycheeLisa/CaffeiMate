@@ -1110,7 +1110,8 @@
 	}
 
 	i, em {
-		font-style: italic;
+		font-style: normal;
+        font-size: 12px;
 	}
 
 	sub {
